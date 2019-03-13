@@ -1,0 +1,85 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+/* .box{
+  margin-top: 40px;
+} */
+.contenedor-ppal{
+  background-image: url(../img/panoramico.jpg);
+  padding-top: 40px;
+}
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+.logo-img{
+  border-radius: 25px;
+}
+.tit-blog{
+  margin-top: 20px;
+}
+.social-icons{
+  margin: 10px 10px;
+}
+.scl-icon{
+  width: 30px;
+  margin: 3px;
+}
+.sc-icon{
+  margin-top: 70px;
+}
+/* .posts{
+  background-color: #FFFFFF;
+  width: 90%;
+} */
+
+.test{
+  background-color: #FFFFFF;
+}
+.test img{
+  float: left;
+  width: 270px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+.author{
+  background-color: #FFFFFF;
+  margin-top: 0px;
+}
+.author-img{
+
+}
+.author-img img{
+  width: 150px;
+  display: block;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   border-radius: 50%;
+}
+.comment-sctn{
+  background-color: #ffe0b2;
+
+}
+.rrr{
+  margin-top: 10px;
+}
+@media (max-width: 770px) {
+
+
+.test img{
+  width: 100%;
+}
+.posts{
+  width: 90%;
+}
+}

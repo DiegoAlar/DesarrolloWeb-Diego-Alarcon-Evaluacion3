@@ -1,0 +1,59 @@
+.logo-img{
+  width: 100px;
+}
+.img-social{
+  width: 40px;
+  height: 40px;
+}
+.lista-menu{
+  display: inline-block;
+}
+.item-img{
+  width: 30px;
+  border-radius: 30%;
+}
+.post-sctn{
+  margin: 20px auto;
+}
+.post-img{
+  width: 800px;
+}
+.comentarios{
+padding: 10px;
+}
+.comentarios img{
+margin-top: -45px;
+width: 50px;
+}
+.comentarios textarea{
+width: 80%;
+}
+/* Bootstrap 4 text input with search icon */
+
+.has-search .form-control {
+    padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+.search-bar {
+    width: 90%;
+    margin: 50px auto;
+}
+@media (max-width: 770px) {
+.flex-small{
+  display: flex;
+  justify-content: center;
+}
+.post-img{
+  width: 600px;
+}
